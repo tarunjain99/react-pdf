@@ -105,7 +105,7 @@ export class PageCanvasInternal extends PureComponent {
     const { renderViewport, viewport } = this;
     const { page, renderInteractiveForms } = this.props;
 
-    canvas.width = renderViewport.width;
+    canvas.width = "100%";
     canvas.height = renderViewport.height;
 
     canvas.style.width = `${Math.floor(viewport.width)}px`;
